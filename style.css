@@ -1,0 +1,209 @@
+*{
+    font-family: 'Montserrat, sans-serif';
+}
+
+h1 {  
+    /* color: aliceblue; */
+    font-family: 'Montserrat-Black, sans-serif'; 
+    font-size: 3.5rem; 
+    font-weight: 900; 
+    line-height: 1.5;  
+}
+
+#title{
+    background-color: black;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+    
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 0rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    /* font-weight:bold; */
+}
+
+.nav-item{
+    padding: 0px 18px ;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 40%;
+    transform: rotate(-20deg);
+    transition: all 2s ease-out;
+}
+
+.title-image:hover{
+    width: 40%;
+    transform: rotate(20deg);
+    transition: all 2s ease-in;
+}
+
+.starting{
+    text-align: center;
+}
+
+.future{
+    font-size: 5rem;
+    padding: 5%;
+}
+
+/* Features */
+
+#features{
+    background-color: #f5f3f3;
+    padding: 7% 15%;
+}
+
+.features-box{
+    text-align: center;
+    padding:5%;
+}
+
+p{
+    color: grey;
+}
+
+h3{
+    font-family: "Montserrat-bold";
+}
+
+.icon{
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #000000;
+    transition: all .3s ease-in;
+}
+
+/* Games Section */
+
+#games,#workshops{
+    padding-top: 2%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.game-image,.workshop-image{
+    margin: 5%;
+    width: 22%;
+    box-shadow:0px 0px 20px #E4F8F8;
+    transition: all .5s ;
+}
+
+.game-image:hover{
+    transform: scale(1.2);
+    transition: all .5s ease-in;
+}
+
+.workshop-image:hover{
+    transform: scale(1.2);
+    transition: all .5s ease-in;
+}
+
+#games-carousel,#workshop-carousel{
+    padding : 5% 10%;
+}
+
+/* Team Section */
+
+#team{
+    background-color: #f5f3f3;
+    color: #000000;
+    /* padding: 2%; */
+    text-align: center;
+    align-items: center;
+}
+
+.team-card{
+    margin: auto;
+    padding: 1%;
+    border: 1px solid rgb(160, 155, 155);
+    /* margin-bottom: 5%; */
+    margin-bottom: 3%;
+}
+
+.team-image{
+    border-radius: 100%;
+    width: 50%;
+    box-shadow:1px 1px 10px #5e5c5c;
+    transition: all .5s ;
+}
+
+.team-image:hover{
+    transition: all .3s ;
+    transform: scale(1.2);
+    margin: auto;
+}
+
+.team-social-logo{
+    margin: 2%;
+    color: #9da5b4;
+    transition: all .5s ;
+}
+
+.team-social-logo:hover{
+    /* color: #000000; */
+    transform: scale(1.3);
+    padding : 2%;
+    transition: all .3s ;
+}
+
+.fa-instagram:hover{
+    color: rgb(214, 80, 207);
+}
+
+.fa-linkedin:hover{
+    color: blue;
+}
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+
+.fa-facebook:hover{
+    color: #4267B2;
+}
+
+/* Footer Section */
+
+.bottom-container{
+    background-color: #ffffff;
+    padding : 10px 0px 0px;
+    text-align: center;
+  }
+
+  .copyright{
+    color : #000000;
+    font-size : 0.75rem;
+    padding : 20px 0px;
+    word-spacing: 2px;
+  }
